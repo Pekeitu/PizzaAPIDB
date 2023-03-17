@@ -4,7 +4,7 @@ using TP1Dai.Models;
 namespace TP1Dai.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class PizzaController : ControllerBase
 {
 
